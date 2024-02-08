@@ -14,8 +14,8 @@
       "obj/main.o",
       "src/main.c"
     ],
-    "directory": "/home/piotrek/Programming/Embedded/baremetalStm32",
-    "file": "/home/piotrek/Programming/Embedded/baremetalStm32/src/main.c",
-    "output": "/home/piotrek/Programming/Embedded/baremetalStm32/obj/main.o"
+    "directory": "/home/piotrek/GitHub/CMSIS_STM32F302x8_Starter",
+    "file": "/home/piotrek/GitHub/CMSIS_STM32F302x8_Starter/src/main.c",
+    "output": "/home/piotrek/GitHub/CMSIS_STM32F302x8_Starter/obj/main.o"
   }
 ]
