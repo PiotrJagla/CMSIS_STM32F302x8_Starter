@@ -7,7 +7,7 @@
 void TimInit(TIM_TypeDef* timx, uint16_t psc, uint16_t arr);
 void TimStart(TIM_TypeDef* timx);
 uint16_t TimGetCounter(TIM_TypeDef* timx);
-void TimEnebaleUpdateInterrupts(TIM_TypeDef* timx);
-void TimDisableUpdateInterrupts(TIM_TypeDef* timx);
+void TimEnebaleUpdateInterrupts(TIM_TypeDef* timx, IRQn_Type interrupt);
+void TimDisableUpdateInterrupts(TIM_TypeDef* timx, IRQn_Type interrupt);
 
 #endif
