@@ -4,12 +4,15 @@
 #include <stdio.h>
 #include <usart.h>
 #include <cmsis_util.h>
+#include <lcd_io_gpio8.h>
 
 int main(void)
 {
   SysTick_Config(CLOCK_FREQ/1000);
   __enable_irq();
   usart_init(USART2);
+
+
   
   while(1)
   {
